@@ -6,6 +6,8 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
+const now = new Date();
+const currentTime = now.toLocaleTimeString();
 
 
 // Dichiara la funzione qui.
